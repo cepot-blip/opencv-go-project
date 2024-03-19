@@ -6,7 +6,6 @@ import (
 	"io"
 	"net/http"
 	"os"
-	"path/filepath"
 
 	"github.com/cepot-blip/opencv-go-project/utils"
 )
@@ -38,10 +37,9 @@ func CompressHandler(w http.ResponseWriter, r *http.Request) {
 	defer file.Close()
 
 	// GET THE BASE NAME OF THE INPUT FIlE
-	inputFileName := filepath.Base(req.InputPath)
 
 	// SPECIPY OUTPUT PATH INSADE "ASSETS" FOLDER WITH JPEG FORMAT
-	outputPath := filepath.Join("assets", fmt.Sprintf("compressed_%s", inputFileName))
+	outputPath := "assets/compress_image.jpeg"
 
 	// COMPRESS IMAGE
 	err = utils.CompressImage(file, outputPath, req.Quality)
