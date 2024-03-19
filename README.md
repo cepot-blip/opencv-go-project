@@ -44,7 +44,7 @@
 
    **After completing all the dependencies we need, we go straight into our favorite code editor Visual Studio Code. and we will create 3 main folders and one file with the names assets, handlers, utils and main.go**
 
-   ![Screenshot 2024-03-19 at 13.49.02.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_13.49.02.png)
+	<img width="240" alt="Screenshot 2024-03-19 at 13 49 02" src="https://github.com/cepot-blip/opencv-go-project/assets/85933775/c89f7987-67e1-4f5b-a486-65aebef15a87">
 
 6. next we will start coding in the utils folder by creating 3 files named
 
@@ -143,7 +143,7 @@ func ResizeImage(InputPath *os.File, outputPath string, width, height int) error
 }
 ```
 
-1. Next we will create 3 files inside the handler folder with the name
+7. Next we will create 3 files inside the handler folder with the name
 
 - compressHandler.go
 - convertHandler.go
@@ -340,7 +340,7 @@ func ResizeHandler(w http.ResponseWriter, r *http.Request) {
 }
 ```
 
-1. ext we will do the coding in fila main.go to do our router HTTP server
+8. ext we will do the coding in fila main.go to do our router HTTP server
 
 **main.go**
 
@@ -373,13 +373,13 @@ func main() {
 }
 ```
 
-1. **next we put 1 image file into the assets folder with type png**
+9. **next we put 1 image file into the assets folder with type png**
 
 Then this is how it looks now
 
-![Screenshot 2024-03-19 at 14.25.00.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_14.25.00.png)
+<img width="301" alt="Screenshot 2024-03-19 at 14 25 00" src="https://github.com/cepot-blip/opencv-go-project/assets/85933775/4df5d260-636f-4d5d-b7fe-febc610b4d03">
 
-1. the next step we will run the server in the terminal with the following sytax :
+10. the next step we will run the server in the terminal with the following sytax :
 
 ```go
 go run main.go
@@ -387,29 +387,30 @@ go run main.go
 
 and when successful it will show a display like this on your computer terminal
 
-![Screenshot 2024-03-19 at 14.28.41.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_14.28.41.png)
+<img width="498" alt="Screenshot 2024-03-19 at 14 28 41" src="https://github.com/cepot-blip/opencv-go-project/assets/85933775/b71defd0-3b9f-4d35-acd3-8295b2b8e5cd">
 
-1. okay next step we will do a test through postman
+11. okay next step we will do a test through postman
 
 the first step is to create a new collection in postman and add a new request with the post method and this is an example of the JSON body
 
-![Screenshot 2024-03-19 at 14.36.04.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_14.36.04.png)
+<img width="521" alt="Screenshot 2024-03-19 at 14 36 04" src="https://github.com/cepot-blip/opencv-go-project/assets/85933775/a2400dbb-6721-4906-8614-573aca49c671">
 
 and this is the result of the successful body response
 
-![Screenshot 2024-03-19 at 14.38.03.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_14.38.03.png)
+<img width="1024" alt="Screenshot 2024-03-19 at 14 38 03" src="https://github.com/cepot-blip/opencv-go-project/assets/85933775/6ac8c82a-498c-439a-9194-36f697aa2ccc">
 
 This is the result of the request body from convert
 
-![Screenshot 2024-03-19 at 14.39.22.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_14.39.22.png)
+<img width="1020" alt="Screenshot 2024-03-19 at 14 39 22" src="https://github.com/cepot-blip/opencv-go-project/assets/85933775/f9d090ce-fc96-4419-8cfa-05d53ac367a0">
 
 This is the result of the request body from resize
 
-![Screenshot 2024-03-19 at 14.39.39.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_14.39.39.png)
+<img width="1015" alt="Screenshot 2024-03-19 at 14 39 39" src="https://github.com/cepot-blip/opencv-go-project/assets/85933775/a525b03c-88ba-4284-9325-68edb5c80016">
 
 when finished testing in postman, the results will be automatically saved in the assets folder like this
 
-![Screenshot 2024-03-19 at 15.57.40.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_15.57.40.png)
+<img width="308" alt="Screenshot 2024-03-19 at 15 57 40" src="https://github.com/cepot-blip/opencv-go-project/assets/85933775/0ae5780b-8769-478b-a86d-58cdefd571a4">
+
 
 And we did it
 Thanks!
