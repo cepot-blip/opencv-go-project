@@ -44,7 +44,7 @@
 
    **After completing all the dependencies we need, we go straight into our favorite code editor Visual Studio Code. and we will create 3 main folders and one file with the names assets, handlers, utils and main.go**
 
-   ![sss][Screenshot 2024-03-19 at 13.49.02.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_13.49.02.png)
+   ![Screenshot 2024-03-19 at 13.49.02.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_13.49.02.png)
 
 6. next we will start coding in the utils folder by creating 3 files named
 
@@ -377,7 +377,7 @@ func main() {
 
 Then this is how it looks now
 
-![sss][Screenshot 2024-03-19 at 14.25.00.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_14.25.00.png)
+![Screenshot 2024-03-19 at 14.25.00.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_14.25.00.png)
 
 1. the next step we will run the server in the terminal with the following sytax :
 
@@ -387,29 +387,29 @@ go run main.go
 
 and when successful it will show a display like this on your computer terminal
 
-![sss][Screenshot 2024-03-19 at 14.28.41.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_14.28.41.png)
+![Screenshot 2024-03-19 at 14.28.41.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_14.28.41.png)
 
 1. okay next step we will do a test through postman
 
 the first step is to create a new collection in postman and add a new request with the post method and this is an example of the JSON body
 
-![sss][Screenshot 2024-03-19 at 14.36.04.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_14.36.04.png)
+![Screenshot 2024-03-19 at 14.36.04.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_14.36.04.png)
 
 and this is the result of the successful body response
 
-![sss][Screenshot 2024-03-19 at 14.38.03.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_14.38.03.png)
+![Screenshot 2024-03-19 at 14.38.03.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_14.38.03.png)
 
 This is the result of the request body from convert
 
-![sss][Screenshot 2024-03-19 at 14.39.22.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_14.39.22.png)
+![Screenshot 2024-03-19 at 14.39.22.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_14.39.22.png)
 
 This is the result of the request body from resize
 
-![sss][Screenshot 2024-03-19 at 14.39.39.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_14.39.39.png)
+![Screenshot 2024-03-19 at 14.39.39.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_14.39.39.png)
 
 when finished testing in postman, the results will be automatically saved in the assets folder like this
 
-![sss][Screenshot 2024-03-19 at 15.57.40.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_15.57.40.png)
+![Screenshot 2024-03-19 at 15.57.40.png](TUTORIAL%20FOR%20COMPRESSED%20IMAGE%20PROCESSING%20IN%20GOLANG%20f06a8ed97479477ca77e6ace8922841b/Screenshot_2024-03-19_at_15.57.40.png)
 
 And we did it
 Thanks!
